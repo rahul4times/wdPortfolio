@@ -1,6 +1,5 @@
 /*--- Auther - Rahul Sharma, tkdmaster.sharma@gmail.com ---*/
 
-
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
@@ -75,7 +74,6 @@ body{
 
 .portfolio{
   text-align: center;
-  /*background-color: #c2c1c1;*/
   padding-top: 15px;
   padding-bottom: 30px;
   color: #656565;
@@ -85,30 +83,51 @@ body{
   background-color: #f5f5f5;
   background-image: linear-gradient(90deg, #f5f5f5, #fff);
 }
-
-.carousel .indicators .indicator-item {
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 24px 4px;
-    background-color: #656565;
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
-    border-radius: 50%;
+.container .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row{
+  text-align: -webkit-center;
 }
 
-.carousel .indicators .indicator-item.active {
-    background-color: #ee6588;
+.projectBox{
+  text-align: center;
+  width: 202px;
+  border: 1px solid #d0d0d0;
+  padding-bottom: 5px;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
 }
+
+.boxBtn{
+  background-color: transparent;
+  font-size: 12px;
+  border: 1px solid #818181;
+  border-radius: 2px;
+}
+
+.boxBtn:hover{
+  color: #ee6588;
+  background-color: transparent;
+  border: 1px solid #ee6588;
+  border-radius: 2px;
+}
+
+.projectBox h5{
+  color: #323232;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 .aboutTitle{
   color: #fff;
   padding: 30px 0 30px 0;
   font-size: 30px;
   font-weight: lighter;
-
 }
 
 .coffee{
@@ -126,7 +145,7 @@ body{
 .btnn{
   margin: 25px 0;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 5px;
   height: 50px;
   width: 130px;
@@ -134,6 +153,7 @@ body{
 }
 
 .btnn:hover{
+  border: 1px solid #3d3d3d;
   color: #3d3d3d;
 }
 
